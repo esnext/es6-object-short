@@ -7,11 +7,11 @@
   },
   "dependencies": {
     "esprima-fb": "^6001.1001.0-dev-harmony-fb",
-    "recast": "^0.5",
+    "recast": "^0.7",
     "through": "^2.3"
   },
   "devDependencies": {
-    "mocha": "^1.19",
+    "mocha": "^1.21",
     "chai": "^1.9"
   }
 }

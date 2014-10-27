@@ -27,4 +27,8 @@ describe('ES6ObjectShort', function() {
 
     expectTransform(code, result);
   });
+
+  it('should not alter destructuring assignment object patterns', function() {
+    expectTransform('var {a} = 1;', 'var {a} = 1;');
+  });
 });

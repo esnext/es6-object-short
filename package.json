@@ -6,11 +6,11 @@
     "test": "mocha"
   },
   "dependencies": {
-    "recast": "^0.8",
+    "recast": "^0.9",
     "through": "^2.3"
   },
   "devDependencies": {
-    "mocha": "^1.21",
-    "chai": "^1.9"
+    "mocha": "^2.1",
+    "chai": "^1.10"
   }
 }
